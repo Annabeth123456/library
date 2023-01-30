@@ -1,0 +1,50 @@
+*{
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.nav{
+    height: 60px;
+    background-color: rgb(69, 67, 67);
+    /* display: inline; */
+    margin:0;
+    padding:0;
+}
+.left_nav{
+    float: left;
+    width:75%;
+    vertical-align:middle;
+
+}
+.right_nav{
+    float: right;
+    /* width:20%;    */
+    vertical-align:middle;
+}
+.Fpage{
+    padding-left: 0;
+    margin-left: 0;
+}
+.nav a{
+    width:130px;
+    /* height: 50px; */
+    display: inline-block;
+    color:lightgray;
+    /* 链接去下划线 */
+    text-decoration: none;
+    text-align: center;
+    /* 文字竖直居中 */
+    line-height: 50px;
+}
+.nav a:hover{
+    background-color: grey;
+    color:white;
+}
+.logo{
+    color: white;
+    padding-left: 10px;
+}
+.content{
+    padding: 10px;
+    margin:10px;
+}

@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+    margin: 0 auto;
+}
+body{
+    background-image: url("../image/3.jpg");
+    background-size:cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.main{
+    width: 400px;
+    height: 280px;
+    background-color: black;
+    /* opacity属性参数的不透明度是以数字表示的，
+    从0.0到1.0，完全透明是0.0，完全不透明是1.0，数字越大代表元素越不透明。 */
+    opacity: 0.6;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+.h1{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    box-sizing: border-box;
+    text-align:center;
+    font-size:1.0em;
+    height:2.0em;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    display:block;
+    outline:0;
+    /* padding:0 1em; */
+    text-decoration:none;
+    width:100%;
+}
+.d1,.d2{
+    height: 30px;
+    width: 350px;
+    font-size:18px;
+    margin:20px;
+    color:grey;
+    text-align: center;
+}
+.submit{
+    height: 20px;
+    width: 335px;
+    font-size:18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgb(20, 151, 222);
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    position:absolute;
+}
+a{
+    display: inline-block;
+    color:white;
+}
+#form_login a:hover{
+    color:black;
+    background-color:grey;
+}

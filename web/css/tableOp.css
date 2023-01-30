@@ -1,0 +1,82 @@
+.edit{
+    background-color: goldenrod;
+}
+.delete{
+    background-color: brown;
+}
+button{
+    border: 1px grey solid;
+    color:white;
+    cursor: pointer;
+}
+button :hover{
+    color:black;
+}
+
+#upForm, #addForm{
+    background: #fff;
+    width: 600px;
+    height: 500px;
+    position: fixed;
+
+    /* 上下左右4个方向的定位都设置为0 */
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    /* 外边距全设置为 auto ，元素就这么神奇的居中定位了 */
+    margin: auto;
+}
+
+.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+input{
+    text-decoration:none;
+    -moz-appearance: none;
+    outline-style: none;
+    display:block;
+    text-align:center;
+
+    border:1px solid #ccc;
+    padding: 10px 10px;
+    width:400px;
+    font-size:16px;
+}
+.submit{
+    width:100px;
+    background-color: rgb(20, 151, 222);
+}
+.submit :hover{
+    color:black;
+}
+.head{
+    padding: 5px;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    /* border: grey 1px solid; */
+    /* margin: 5px; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.searcher{
+    padding: 10px;
+}
+.search_btn,.add{
+    background-color: #3278B4;
+    color: white;
+    height: 35px;
+    border-radius: 2px;
+}
+

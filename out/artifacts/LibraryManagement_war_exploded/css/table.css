@@ -1,0 +1,34 @@
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+
+}
+table td, table th
+{
+    border: 1px solid lightblue;
+    color: #666;
+    height: 30px;
+    padding: 3px;
+    margin: 3px;
+}
+table thead th
+{
+    background-color: lightsteelblue;
+    /*width: 100px;*/
+}
+table tr:nth-child(odd)
+{
+    background: #fff;
+}
+table tr:nth-child(even)
+{
+    background: #F5FAFA;
+}
+.edit{
+    background-color: lightpink;
+}
+.delete{
+    background-color: lightyellow;
+}
